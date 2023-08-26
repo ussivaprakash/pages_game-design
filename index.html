@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class=" navbar">
+            <img src="image/logo.png" class="logo">
+            <Nav>
+                <ul id="menulist">
+                    <li> <a href="">Game controllers</a></li>
+                    <li> <a href="">Vr Accerssories</a></li>
+                    <li> <a href="">midia remotes</a></li>
+                    <li> <a href="">other</a></li>
+
+                </ul>
+            </Nav>
+            <img src="image/menu.png" class=" menu-icon" onclick="togglemenu()" >
+        </div>
+        <di class="row">
+            <div class="col-1">
+                <h2>ps4 v2 Dualshock 4</h2>
+                <h3>Wrieless controller For Playtation 4</h3>
+                <p>(Compatible/Generc)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now <img src="image/arrow.png">
+                </button>
+
+            </div>
+            <div class="col-2">
+                <img src="image/controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="image/add.png">
+                    <p><small>Add  to cart </small></p>
+                </div>
+                
+                
+                    </div>
+                
+           
+        </div>
+        <div class="social-link">
+            <img src="image/fb.png ">
+            <img src="image/tw.png ">
+            <img src="image/ig.png ">
+            
+        </div>
+    </div>
+    <script>
+        var menulist = document.getElementById("menulist")
+
+        menulist.style.maxHeight="0px";
+
+        function togglemenu(){
+
+            if(menulist.style.maxHeight == "0px")
+            {
+              menulist.style.maxheight="130px"
+            }
+            else{
+                menulist.style.maxheight = "0px"
+
+            }
+        }
+
+    </script>
+</body>
+</html>
